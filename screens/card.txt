@@ -1,0 +1,49 @@
+card
+name
+Age, Height,  Job
+Religion,Caste   
+
+About 
+Gothra
+
+
+make a list of top ten jobs in india in this format { job: },
+
+make a list of top 50 religion in india in this format { job: },
+
+TA
+  <StatusBar style='dark' />
+
+ <View>
+                <TouchableOpacity
+                    style={tw("rounded-3xl w-20 h-8 bg-pink-200 ")}
+                    onPress={toggleModal}
+
+                >
+                    <Text style={tw("text-center text-pink-600 font-bold text-base")}>
+                        bottom sheet
+                    </Text>
+                </TouchableOpacity>
+            </View>
+ <View>
+                <TouchableOpacity
+                    style={tw("rounded-3xl w-20 h-8 bg-pink-200 ")}
+                    onPress={setData}
+
+                >
+                    <Text style={tw("text-center text-pink-600 font-bold text-base")}>
+                        Set the data
+                    </Text>
+                </TouchableOpacity>
+            </View>
+            <View>
+                <TouchableOpacity
+                    style={tw("rounded-3xl w-20 h-8 bg-pink-200 ")}
+                    onPress={getData}
+
+                >
+                    <Text style={tw("text-center text-pink-600 font-bold text-base")}>
+                        Get the data
+                    </Text>
+                </TouchableOpacity>
+            </View>

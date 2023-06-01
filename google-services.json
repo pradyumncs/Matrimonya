@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "347662042663",
+    "project_id": "gujaratimat",
+    "storage_bucket": "gujaratimat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:347662042663:android:1787f4a5e7f3c75146b002",
+        "android_client_info": {
+          "package_name": "com.vivahaai.gujaratimat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4pphotqBcjwaDI2GXIcUmdWRtxAw8vHA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
